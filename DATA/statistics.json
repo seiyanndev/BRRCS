@@ -1,0 +1,15 @@
+{
+    "total_residents": 0,
+    "new_residencies": {
+        "current_month": 0,
+        "last_updated": "2025-06"
+    },
+    "certificates": {
+        "today": 0,
+        "last_updated": "2025-06-14"
+    },
+    "completed_tasks": {
+        "today": 0,
+        "last_updated": "2025-06-14"
+    }
+}
