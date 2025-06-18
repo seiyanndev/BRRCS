@@ -1,0 +1,431 @@
+2025-06-15 23:38:36,492 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-15 23:38:36,493 - __main__ - ERROR - Application error: UserAuth.__init__() missing 1 required positional argument: 'users_file'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 34, in main
+    auth = UserAuth()
+           ^^^^^^^^^^
+TypeError: UserAuth.__init__() missing 1 required positional argument: 'users_file'
+2025-06-15 23:46:12,832 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-15 23:46:13,057 - core.user_auth - INFO - Created default users file with admin account
+2025-06-15 23:46:13,136 - gui.main_window - INFO - Main window initialized
+2025-06-15 23:59:23,815 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-15 23:59:23,888 - gui.main_window - INFO - Main window initialized
+2025-06-16 00:01:18,245 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 00:01:18,299 - gui.main_window - INFO - Main window initialized
+2025-06-16 00:07:34,954 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 00:07:35,005 - gui.main_window - INFO - Main window initialized
+2025-06-16 00:30:39,089 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 00:30:39,148 - __main__ - ERROR - Application error: 'light'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 68, in configure_styles
+    style.configure('TFrame', background=cls.COLORS['light'])
+                                         ~~~~~~~~~~^^^^^^^^^
+KeyError: 'light'
+2025-06-16 00:43:48,682 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 00:43:48,716 - __main__ - ERROR - Application error: 'gray'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 94, in configure_styles
+    ('disabled', cls.COLORS['gray'])],
+                 ~~~~~~~~~~^^^^^^^^
+KeyError: 'gray'
+2025-06-16 00:47:31,962 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 00:47:31,996 - __main__ - ERROR - Application error: 'text_light'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 95, in configure_styles
+    foreground=[('active', cls.COLORS['text_light'])])
+                           ~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'text_light'
+2025-06-16 00:50:44,446 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 00:50:44,507 - __main__ - ERROR - Application error: 'primary'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 109, in configure_styles
+    background=cls.COLORS['primary'],
+               ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'primary'
+2025-06-16 01:03:49,924 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 01:03:49,963 - __main__ - ERROR - Application error: 'primary'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 109, in configure_styles
+    background=cls.COLORS['primary'],
+               ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'primary'
+2025-06-16 01:06:10,211 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 01:06:10,245 - __main__ - ERROR - Application error: 'light'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 153, in configure_styles
+    background=cls.COLORS['light'],
+               ~~~~~~~~~~^^^^^^^^^
+KeyError: 'light'
+2025-06-16 01:22:13,466 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 01:22:13,502 - __main__ - ERROR - Application error: 'text_light'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 206, in configure_styles
+    foreground=cls.COLORS['text_light'],
+               ~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'text_light'
+2025-06-16 14:29:20,723 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 14:29:20,789 - __main__ - ERROR - Application error: 'text_light'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 206, in configure_styles
+    foreground=cls.COLORS['text_light'],
+               ~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'text_light'
+2025-06-16 16:28:39,800 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 16:28:39,836 - __main__ - ERROR - Application error: 'text_light'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 26, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\styles.py", line 206, in configure_styles
+    foreground=cls.COLORS['text_light'],
+               ~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'text_light'
+2025-06-16 16:42:21,337 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-16 16:42:21,938 - gui.main_window - INFO - Main window initialized
+2025-06-17 20:37:53,007 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 20:37:53,791 - gui.main_window - INFO - Main window initialized
+2025-06-17 21:47:21,759 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 21:47:22,311 - gui.main_window - INFO - Main window initialized
+2025-06-17 22:08:02,472 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 22:08:02,980 - gui.main_window - INFO - Main window initialized
+2025-06-17 22:10:04,086 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 22:10:04,631 - gui.main_window - INFO - Main window initialized
+2025-06-17 22:10:10,936 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 22:10:11,479 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:20:33,886 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:20:34,435 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:21:20,947 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:21:21,500 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:23:42,102 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:23:42,630 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:38:42,678 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:38:43,176 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:39:34,281 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:39:34,790 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:39:43,400 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:39:43,900 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:42:23,239 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:42:23,769 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:43:54,130 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:43:54,620 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:47:25,649 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:47:26,169 - gui.main_window - INFO - Main window initialized
+2025-06-17 23:50:17,279 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:50:17,331 - __main__ - ERROR - Application error: 'MainWindow' object has no attribute 'logout'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 34, in __init__
+    self._create_layout()
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 47, in _create_layout
+    self.sidebar = Sidebar(self.main_container, self)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\sidebar.py", line 11, in __init__
+    self.setup_ui()
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\sidebar.py", line 92, in setup_ui
+    command=self.controller.logout
+            ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'logout'. Did you mean: '_logout'?
+2025-06-17 23:54:51,630 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-17 23:54:52,115 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:27:36,648 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:27:37,177 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:29:27,946 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:29:28,457 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:32:29,446 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:32:30,027 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:33:13,390 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:33:13,974 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:39:03,483 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:39:04,043 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:43:46,388 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:43:46,959 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:47:21,835 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:47:22,398 - gui.main_window - INFO - Main window initialized
+2025-06-18 00:55:56,089 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 00:55:56,653 - gui.main_window - INFO - Main window initialized
+2025-06-18 01:01:24,788 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 01:01:25,355 - gui.main_window - INFO - Main window initialized
+2025-06-18 01:02:59,556 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 01:03:00,122 - gui.main_window - INFO - Main window initialized
+2025-06-18 01:04:17,813 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 01:04:18,379 - gui.main_window - INFO - Main window initialized
+2025-06-18 01:05:26,459 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 01:05:27,030 - gui.main_window - INFO - Main window initialized
+2025-06-18 01:07:45,670 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 01:07:46,227 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:21:11,474 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:21:12,467 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:22:58,497 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:22:58,545 - __main__ - ERROR - Application error: 'background'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 32, in __init__
+    self.root.configure(bg=StyleManager.COLORS['background'])
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'background'
+2025-06-18 10:23:40,106 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:23:40,139 - __main__ - ERROR - Application error: 'background'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 32, in __init__
+    self.root.configure(bg=StyleManager.COLORS['background'])
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'background'
+2025-06-18 10:24:05,507 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:24:05,537 - __main__ - ERROR - Application error: type object 'StyleManager' has no attribute 'configure_styles'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 35, in __init__
+    StyleManager.configure_styles(self.root)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'StyleManager' has no attribute 'configure_styles'
+2025-06-18 10:24:42,251 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:24:42,290 - __main__ - ERROR - Application error: name 'ttk' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 35, in __init__
+    StyleManager.configure_styles(self.root)
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\style_manager.py", line 17, in configure_styles
+    style = ttk.Style(root)
+            ^^^
+NameError: name 'ttk' is not defined
+2025-06-18 10:28:01,208 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:28:01,297 - __main__ - ERROR - Application error: type object 'StyleManager' has no attribute 'FONTS'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 42, in __init__
+    self._create_layout()
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 68, in _create_layout
+    self.header = ttk.Label(self.sidebar, text="BRRCS", style='Sidebar.TLabel', font=StyleManager.FONTS['title'])
+                                                                                     ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'StyleManager' has no attribute 'FONTS'
+2025-06-18 10:28:27,997 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:28:28,079 - __main__ - ERROR - Application error: 'heading'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\main.py", line 57, in main
+    app = MainWindow(root)
+          ^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 42, in __init__
+    self._create_layout()
+  File "c:\Users\Admin\Downloads\BRRCS - PROTOTYPE\BRRCS\gui\main_window.py", line 70, in _create_layout
+    self.subtitle = ttk.Label(self.sidebar, text="Barangay 6", style='Sidebar.TLabel', font=StyleManager.FONTS['heading'])
+                                                                                            ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'heading'
+2025-06-18 10:29:27,127 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:29:27,670 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:30:26,812 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:30:27,366 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:31:53,060 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:31:53,607 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:35:20,840 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:35:21,384 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:38:46,336 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:38:46,901 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:40:18,117 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:40:18,726 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:42:43,622 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:42:44,170 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:43:26,430 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:43:26,974 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:48:20,367 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:48:20,927 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:51:24,238 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:51:24,821 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:52:32,039 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:52:32,643 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:52:49,662 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:52:50,227 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:55:54,255 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:55:54,809 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:57:14,270 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:57:14,821 - gui.main_window - INFO - Main window initialized
+2025-06-18 10:57:49,804 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 10:57:50,352 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:00:08,102 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:00:08,641 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:03:28,555 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:03:29,112 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:06:47,177 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:06:47,732 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:06:57,543 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:06:58,091 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:08:36,379 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:08:36,933 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:21:22,184 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:21:22,745 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:22:06,031 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:22:06,564 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:24:58,639 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:24:59,179 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:28:06,914 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:28:07,454 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:28:14,241 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:28:14,790 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:28:32,054 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:28:32,614 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:28:53,544 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:28:54,084 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:29:35,874 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:29:36,420 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:32:07,557 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:32:08,103 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:33:25,106 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:33:25,643 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:34:05,534 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:34:06,074 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:34:47,543 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:34:48,094 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:36:02,544 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:36:03,090 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:38:25,453 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:38:25,997 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:39:57,483 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:39:58,027 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:42:07,166 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:42:07,719 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:43:17,154 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:43:17,690 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:43:38,808 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:43:39,348 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:44:05,302 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:44:05,842 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:45:30,155 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:45:30,706 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:46:55,507 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:46:56,052 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:47:12,929 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:47:13,474 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:47:46,629 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:47:47,169 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:49:04,046 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:49:04,597 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:50:36,345 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:50:36,883 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:52:34,723 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:52:35,269 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:52:57,983 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:52:58,525 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:53:45,849 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:53:46,394 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:54:54,675 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:54:55,217 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:56:31,665 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:56:32,204 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:57:38,496 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:57:39,038 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:58:45,199 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:58:45,743 - gui.main_window - INFO - Main window initialized
+2025-06-18 11:59:40,339 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 11:59:40,881 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:00:11,571 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:00:12,117 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:01:32,871 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:01:33,403 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:02:33,821 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:02:34,361 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:03:40,734 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:03:41,278 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:04:55,161 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:04:55,704 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:06:17,668 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:06:18,211 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:08:55,264 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:08:55,809 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:11:10,358 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:11:10,901 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:13:06,660 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:13:07,199 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:15:00,823 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:15:01,377 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:17:14,896 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:17:15,445 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:19:06,224 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:19:06,758 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:22:33,437 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:22:33,979 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:24:34,010 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:24:34,545 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:25:58,862 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:25:59,401 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:28:41,538 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:28:42,081 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:32:22,780 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:32:23,336 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:33:49,433 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:33:50,029 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:35:22,147 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:35:22,710 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:36:53,166 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:36:53,723 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:39:41,524 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:39:42,090 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:40:58,596 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:40:59,156 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:43:59,803 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:44:00,361 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:48:42,694 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:48:43,256 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:50:06,734 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:50:07,285 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:52:04,414 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:52:04,973 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:54:57,561 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:54:58,120 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:56:58,040 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:56:58,598 - gui.main_window - INFO - Main window initialized
+2025-06-18 12:58:22,050 - core.config_loader - INFO - Configuration loaded successfully
+2025-06-18 12:58:22,607 - gui.main_window - INFO - Main window initialized

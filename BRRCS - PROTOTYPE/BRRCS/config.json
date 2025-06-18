@@ -1,0 +1,31 @@
+{
+    "app_name": "BRRCS",
+    "version": "1.0.0",
+    "database": {
+        "residents_file": "data/residents.xlsx",
+        "logs_file": "data/logs.xlsx",
+        "users_file": "data/users.json",
+        "backup_dir": "data/backup"
+    },
+    "templates": {
+        "clearance": "templates/barangay_clearance.pdf",
+        "indigency": "templates/indigency_template.py",
+        "seal": "templates/seal.png",
+        "signature": "templates/signature.png"
+    },
+    "output": {
+        "certificates_dir": "certs/issued",
+        "drafts_dir": "certs/drafts"
+    },
+    "gui": {
+        "theme": "default",
+        "window_size": {
+            "width": 1024,
+            "height": 768
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "data/app.log"
+    }
+} 

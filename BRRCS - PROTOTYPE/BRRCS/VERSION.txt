@@ -1,0 +1,6 @@
+1.0.0
+Initial release
+- Basic resident record management
+- Document generation
+- Excel database integration
+- User authentication 

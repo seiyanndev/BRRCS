@@ -1,0 +1,8 @@
+{
+    "admin": {
+        "password": "$2b$12$B5psUkYysx9HM.yQpFY1V.YE.Ug5aE7Hh5thCGknaVRpHKxB9lYBK",
+        "role": "admin",
+        "full_name": "System Administrator",
+        "is_active": true
+    }
+}
